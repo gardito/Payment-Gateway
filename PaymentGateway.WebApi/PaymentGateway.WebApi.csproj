@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.5" />
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Cache.Common\Cache.Common.csproj" />
+      <ProjectReference Include="..\Cache.InMemory\Cache.InMemory.csproj" />
+      <ProjectReference Include="..\Data.Payment.InMemoryDb\Data.Payment.InMemoryDb.csproj" />
+      <ProjectReference Include="..\Payment.Domain\Payment.Domain.csproj" />
+      <ProjectReference Include="..\Payment.Service\Payment.Service.csproj" />
+      <ProjectReference Include="..\Service.Banking.Interfaces\Service.Banking.Interfaces.csproj" />
+    </ItemGroup>
+
+</Project>
