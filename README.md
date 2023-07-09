@@ -2,7 +2,9 @@
 
 ## Prerequisites
 
-The project runs on .NET Core SDK 7
+The project runs on .NET Core SDK 7.
+
+It is recommended to use an IDE to explore the project (Visual Studio or Rider).
 
 ## Run the application
 
